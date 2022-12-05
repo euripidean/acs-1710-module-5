@@ -12,25 +12,27 @@
 #}
 
 <main>
-        <h1>Tomato</h1>
+        <h1>TESTING</h1>
 
-        <img src="https://www.almanac.com/sites/default/files/styles/primary_image_in_article/public/image_nodes/tomatoes_helios4eos_gettyimages-edit.jpeg?itok=4KrW14a4">
+        {{plant}}
+
+        <!-- <img src={plant.photo_url} alt="Plant Image"> -->
 
         
 
-        <section id="info">
+        <!-- <section id="info">
             <h3>Info</h3>
 
             <strong>Date Planted</strong>
-            3/20/2020
+            {plant.date_planted}
             <br><br>
 
             <strong>Variety</strong>
-            Early Girl
+            {plant.variety}
             <br><br>
 
             <a class="nav" href="/edit/123456">Edit Plant</a><br><br>
-        </section>
+        </section> -->
 
         <form action="/harvest/123456" method="POST">
             <fieldset>
